@@ -57,15 +57,16 @@
         android:layout_marginStart="130dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="130dp"
+        android:onClick="XuLyCong"
         android:text="TINH TONG"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtB" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/edtKQ"
+        android:layout_width="42dp"
+        android:layout_height="15dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="45dp"
         android:text="ketqua:"
@@ -80,6 +81,6 @@
         android:layout_marginTop="27dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/edtKQ"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
